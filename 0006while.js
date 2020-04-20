@@ -24,14 +24,20 @@
 //     console.log(' '.repeat(num - floor) + star.repeat(floor))
 // }
 
-
 // const num = 9;
 // for (let count = 1; count <= 100 / num; count++) {
 //     console.log(count * num)
 // }
 
+// for (let count = 1; count <= 6; count++) {
+//     let n = Math.floor(Math.random() * 45) + 1;
+//     console.log(n);
 
-for (let count = 1; count <= 6; count++) {
-    let n = Math.floor(Math.random() * 45) + 1;
-    console.log(n)
+// }
+
+for (let i = 0; i < 9; i++) {
+  for (let k = 0; k < 9; k++) {
+    console.log("i", i);
+    console.log("k", k);
+  }
 }
