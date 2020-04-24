@@ -60,3 +60,20 @@ const list = [2, 3, 1, 6];
 for (let i = list.length - 1; i >= 0; i--) {
   console.log(list[i]);
 }
+
+// 구조 분해 할당
+
+// I hate it!
+// const first = list[0]
+// const second = list[1]
+
+// I love it
+const [first, a, b, second] = list
+
+// I hate it
+// const a = list[0]
+// const b = list[1]
+// const rest = [ list[2], list[3], ]
+
+// I love it
+const [a, b, ...rest] = list
