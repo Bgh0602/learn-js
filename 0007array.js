@@ -68,7 +68,7 @@ for (let i = list.length - 1; i >= 0; i--) {
 // const second = list[1]
 
 // I love it
-const [first, a, b, second] = list
+const [first, a, b, second] = list;
 
 // I hate it
 // const a = list[0]
@@ -76,4 +76,4 @@ const [first, a, b, second] = list
 // const rest = [ list[2], list[3], ]
 
 // I love it
-const [a, b, ...rest] = list
+const [a, b, ...rest] = list;
